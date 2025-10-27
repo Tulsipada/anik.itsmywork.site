@@ -1,73 +1,178 @@
-# Welcome to your Lovable project
+# Anik Mitra - QA Automation Engineer Portfolio
 
-## Project info
+A modern, interactive portfolio website showcasing the skills, experience, and projects of Anik Mitra, a QA Automation Engineer specializing in Selenium, Java, TestNG, and Maven.
 
-**URL**: https://lovable.dev/projects/b5132bf8-7a3f-47ed-bcb4-caec80ef497e
+## 🚀 Live Demo
 
-## How can I edit this code?
+Visit the portfolio: [anik.itsmywork.site](https://anik.itsmywork.site)
 
-There are several ways of editing your application.
+## 📋 About
 
-**Use Lovable**
+This is a professional portfolio website built with modern web technologies. The site features:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b5132bf8-7a3f-47ed-bcb4-caec80ef497e) and start prompting.
+- **Hero Section**: Eye-catching introduction with animated background
+- **About**: Professional background and expertise
+- **Skills**: Technical skills in QA automation tools and technologies
+- **Experience**: Professional experience and achievements
+- **Projects**: Notable projects and contributions
+- **Education**: Academic qualifications
+- **Contact**: Ways to get in touch
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Features
 
-**Use your preferred IDE**
+- 🎨 Modern, responsive design with smooth animations
+- 🌙 Dark theme with custom color schemes
+- ✨ Interactive Three.js background animations
+- 📱 Fully responsive across all devices
+- 🚀 Fast performance with Vite build tool
+- 🎭 Beautiful UI components from shadcn/ui
+- ⚡ Framer Motion for smooth transitions
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Technologies Used
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Core Technologies
+- **React 18.3** - UI framework
+- **TypeScript 5.8** - Type safety
+- **Vite 5.4** - Build tool and dev server
+- **Tailwind CSS 3.4** - Styling
 
-Follow these steps:
+### UI & Animation
+- **shadcn/ui** - Accessible component library
+- **Radix UI** - Headless UI primitives
+- **Framer Motion** - Animation library
+- **Three.js** - 3D graphics and animations
+- **@react-three/fiber** - React renderer for Three.js
+- **@react-three/drei** - Useful helpers for Three.js
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Other Libraries
+- **Lucide React** - Icon library
+- **React Router** - Client-side routing
+- **TanStack Query** - Data fetching and caching
+- **next-themes** - Theme management
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 📦 Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Prerequisites
+- Node.js 18+ (recommended)
+- npm or yarn or bun
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd anik.itsmywork.site
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   bun install
+   # or
+   yarn install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run dev
+   # or
+   bun run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open in browser**
+   Navigate to `http://localhost:8080`
+
+## 🚀 Build for Production
+
+```bash
+# Build the project
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## 📁 Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+anik.itsmywork.site/
+├── public/              # Static assets
+│   ├── Anik-mitra.png   # Profile photo
+│   ├── favicon.ico
+│   └── placeholder.svg
+├── src/
+│   ├── components/      # React components
+│   │   ├── ui/         # shadcn/ui components
+│   │   ├── About.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Education.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Skills.tsx
+│   │   └── ThreeBackground.tsx
+│   ├── hooks/          # Custom React hooks
+│   ├── lib/            # Utility functions
+│   ├── pages/          # Page components
+│   └── App.tsx         # Root component
+├── package.json
+├── tsconfig.json
+├── tailwind.config.ts
+└── vite.config.ts
+```
 
-**Use GitHub Codespaces**
+## 🎨 Customization
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Colors
+Edit `tailwind.config.ts` to customize the color scheme:
+- `primary` - Main brand color
+- `secondary` - Secondary color
+- `accent` - Accent color
 
-## What technologies are used for this project?
+### Content
+Update the component files in `src/components/` to personalize:
+- **Hero.tsx** - Introduction and social links
+- **About.tsx** - About section content
+- **Skills.tsx** - Skills and technologies
+- **Experience.tsx** - Work experience
+- **Projects.tsx** - Project showcase
+- **Education.tsx** - Educational background
+- **Contact.tsx** - Contact information
 
-This project is built with:
+### Profile Photo
+Replace `public/Anik-mitra.png` with your own photo.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📝 Available Scripts
 
-## How can I deploy this project?
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build with development mode
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-Simply open [Lovable](https://lovable.dev/projects/b5132bf8-7a3f-47ed-bcb4-caec80ef497e) and click on Share -> Publish.
+## 🤝 Contributing
 
-## Can I connect a custom domain to my Lovable project?
+This is a personal portfolio project. If you'd like to use it as a template:
 
-Yes, you can!
+1. Fork the repository
+2. Customize the content with your information
+3. Deploy to your preferred hosting platform
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📄 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+© 2025 Anik Mitra. All rights reserved.
+
+---
+
+**Built with ❤️ by Anik Mitra**
+
+For inquiries: [anikmitradell@gmail.com](mailto:anikmitradell@gmail.com)
+
+**Links:**
+- [GitHub](https://github.com/Anikdell)
+- [LinkedIn](https://linkedin.com/in/anik-mitra07)
+- [Portfolio](https://anikdigitalspace.netlify.app/)
