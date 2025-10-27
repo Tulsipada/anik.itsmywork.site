@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
 import { Button } from "./ui/button";
-import profilePhoto from "@/assets/profile-photo.jpg";
 
 export const Hero = () => {
   return (
@@ -24,7 +23,7 @@ export const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-primary via-accent to-primary-glow rounded-full blur-xl opacity-50 animate-pulse" />
             <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-primary shadow-[0_0_40px_rgba(0,217,255,0.5)]">
               <img 
-                src={profilePhoto} 
+                src="/Anik-mitra.png" 
                 alt="Anik Mitra - QA Automation Engineer" 
                 className="w-full h-full object-cover"
               />
