@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
 import { Button } from "./ui/button";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 export const Hero = () => {
   return (
@@ -13,6 +14,24 @@ export const Hero = () => {
         transition={{ duration: 0.8 }}
         className="relative z-10 max-w-4xl mx-auto text-center space-y-6"
       >
+        <motion.div
+          className="flex justify-center mb-8"
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6 }}
+        >
+          <div className="relative">
+            <div className="absolute inset-0 bg-gradient-to-br from-primary via-accent to-primary-glow rounded-full blur-xl opacity-50 animate-pulse" />
+            <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-primary shadow-[0_0_40px_rgba(0,217,255,0.5)]">
+              <img 
+                src={profilePhoto} 
+                alt="Anik Mitra - QA Automation Engineer" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </motion.div>
+
         <motion.h1
           className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent"
           initial={{ opacity: 0, scale: 0.9 }}
