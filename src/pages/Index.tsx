@@ -1,4 +1,5 @@
 import { ThreeBackground } from "@/components/ThreeBackground";
+import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
 import { Skills } from "@/components/Skills";
@@ -11,6 +12,7 @@ const Index = () => {
   return (
     <div className="relative min-h-screen">
       <ThreeBackground />
+      <Navbar />
       
       <main className="relative z-10">
         <Hero />

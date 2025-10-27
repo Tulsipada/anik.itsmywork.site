@@ -5,7 +5,7 @@ import profilePhoto from "@/assets/profile-photo.jpg";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4">
+    <section className="relative min-h-screen flex items-center justify-center px-4 pt-16">
       <div className="absolute inset-0 bg-gradient-to-b from-background/80 to-background" />
       
       <motion.div
